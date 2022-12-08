@@ -8,19 +8,6 @@
 <script>
 import axios from 'axios'
 
-// const myAxios = axios.create({
-//     baseURL:'http://111.229.176.245:3000/mtapi/mihray/',
-// });
-
-// const getReq = {
-//     getName: 'getName',
-//     sayHello: 'sayHello',
-//     getWeather: 'randomWeather'
-// }
-// const postReq = {
-//     login: 'login'
-// }
-
 export default {
   name: 'HelloWorld',
   props: {
