@@ -32,13 +32,13 @@ export default {
       .then(res=>{
               console.log(res.data)})
         .catch((err)=>{console.log(err);}),
-          axios.post('/mtapi/mihray/login')
-          .then(res=>{
-              console.log(res.data)
-          })
-          .catch((err)=>{console.log(err);});
-        }
-  }
+      axios.post('/mtapi/mihray/login')
+      .then(res=>{
+          console.log(res.data)
+      })
+      .catch((err)=>{console.log(err);});
+    }
+}
 }
 </script>
 
